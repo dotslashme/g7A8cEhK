@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: g7A8cEhK
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+g7A8cEhK:
+  workingHours:
+    start: '08:00'
+    end: '17:00'
